@@ -5,5 +5,8 @@ subject2 = float(input("Enter marks for subject 2: "))
 
 average_mark = (subject1 + subject2) / 2
 
+status = "Passed" if average_mark >= 50 else "Failed"
+
 print(f"\nStudent Name: {student_name}")
 print(f"Average Mark: {average_mark:.2f}")
+print(f"Status: {status}")
